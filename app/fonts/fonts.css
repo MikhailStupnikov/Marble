@@ -1,0 +1,59 @@
+@font-face {
+	font-family: 'RobotoRegular';
+	src: url('RobotoRegular.eot');
+	src: url('RobotoRegular.woff2') format('woff2'),
+		 url('RobotoRegular.woff') format('woff'),
+		 url('RobotoRegular.ttf') format('truetype'),
+		 url('RobotoRegular.svg#RobotoRegular') format('svg'),
+		 url('RobotoRegular.eot?#iefix') format('embedded-opentype');
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'RobotoCondensed';
+	src: url('RobotoCondensed.eot');
+	src: url('RobotoCondensed.woff2') format('woff2'),
+		 url('RobotoCondensed.woff') format('woff'),
+		 url('RobotoCondensed.ttf') format('truetype'),
+		 url('RobotoCondensed.svg#RobotoCondensed') format('svg'),
+		 url('RobotoCondensed.eot?#iefix') format('embedded-opentype');
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'RobotoCondensedBold';
+	src: url('RobotoCondensedBold.eot');
+	src: url('RobotoCondensedBold.woff2') format('woff2'),
+		 url('RobotoCondensedBold.woff') format('woff'),
+		 url('RobotoCondensedBold.ttf') format('truetype'),
+		 url('RobotoCondensedBold.svg#RobotoCondensedBold') format('svg'),
+		 url('RobotoCondensedBold.eot?#iefix') format('embedded-opentype');
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'RobotoSlabRegular';
+	src: url('RobotoSlabRegular.eot');
+	src: url('RobotoSlabRegular.woff2') format('woff2'),
+		 url('RobotoSlabRegular.woff') format('woff'),
+		 url('RobotoSlabRegular.ttf') format('truetype'),
+		 url('RobotoSlabRegular.svg#RobotoSlabRegular') format('svg'),
+		 url('RobotoSlabRegular.eot?#iefix') format('embedded-opentype');
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'RobotoSlabBold';
+	src: url('RobotoSlabBold.eot');
+	src: url('RobotoSlabBold.woff2') format('woff2'),
+		 url('RobotoSlabBold.woff') format('woff'),
+		 url('RobotoSlabBold.ttf') format('truetype'),
+		 url('RobotoSlabBold.svg#RobotoSlabBold') format('svg'),
+		 url('RobotoSlabBold.eot?#iefix') format('embedded-opentype');
+	font-weight: normal;
+	font-style: normal;
+}

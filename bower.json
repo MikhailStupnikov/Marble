@@ -1,0 +1,21 @@
+{
+  "name": "marble",
+  "authors": [
+    "Mikhail Stupnikov <stupn-mikhail@yandex.ru>"
+  ],
+  "description": "",
+  "main": "",
+  "license": "MIT",
+  "homepage": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "jquery": "^3.2.1",
+    "normalize-css": "normalize.css#^5.0.0"
+  }
+}
