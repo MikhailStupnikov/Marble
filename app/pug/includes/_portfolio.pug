@@ -1,0 +1,19 @@
+mixin portfolio-item(img, name, category, descr)
+	article.portfolio-item
+		.portfolio-preview
+			.portfolio-overlay
+				a.portfolio-overlay-link(href='#') View More
+			.portfolio-img
+				img(src='img/'+img+'.jpg' alt='project')
+		h4.portfolio-heading
+			a.portfolio-heading-link(href='#')= name
+		p.portfolio-category= category
+		p.portfolio-descr= descr
+
+section.portfolio
+	.container
+		h3.portfolio-title Our Latest Works
+		.portfolio-list
+			+portfolio-item('project-one', 'Nobis Business Card', 'Business Card, Graphic', 'Sed posuere consectetur est at lobortis. Porta sagittis lacus vel augue laoreet rutrum.')
+			+portfolio-item('project-two', 'New Fun Project', 'Web Design, Application', 'Nulla vitae elit libero, a pharetra augue. Donec sed odio dui. Vestibulum id ligula porta felis.')
+			+portfolio-item('project-three', 'Passionaries Branding Cover', 'Branding, Graphic Design', 'Curabitur blandit tempus porttitor. Donec id elit non mi porta gravida at eget metus.')

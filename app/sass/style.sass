@@ -8,3 +8,437 @@
 *:before,
 *:after
 	box-sizing: border-box
+
+html
+	font-size: 16px
+
+body
+	font: 'RobotoRegular', Arial, Helvetica, sans-serif
+	background: #f7f7f7
+
+h1, h2, h3, h4, p, ul
+	margin: 0
+
+ul
+	padding-left: 0
+	list-style-type: none
+
+img
+	max-width: 100%
+
+a
+	text-decoration: none
+
+.container
+	max-width: 1210px
+	margin: 0 auto
+	padding: 0 20px
+
+.clearfix:after
+	content: ""
+	display: table
+	clear: both
+
+.browsehappy
+	font-size: 20px
+	font-weight: bold
+	text-align: center
+
+.service-item,
+.portfolio-item,
+.footer-item
+	display: inline-block
+	vertical-align: top
+
+
+
+
+
+/******* HEADER *******/
+.header
+	position: relative
+	padding: rem(40px) 0 rem(37px)
+	font-family: 'RobotoCondensedBold'
+	background: #e5e5e5 url(../img/header_bg.png)
+	&:after
+		position: absolute
+		left: 0
+		bottom: 0
+		content: ''
+		display: block
+		width: 100%
+		height: 5px
+		background: #e5e5e5
+		opacity: 0.7
+
+.logo
+	float: left
+
+.logo-text
+	font-size: rem(40px)
+	letter-spacing: rem(-2px)
+	
+.logo-text,
+.nav-menu-link,
+.nav-menu-trigger
+	text-transform: uppercase
+
+.logo-link,
+.nav-menu-link,
+.nav-menu-trigger
+	color: #4e4e4e
+
+.nav-menu
+	float: right
+	margin-top: rem(17px)
+
+.nav-menu-item
+	display: inline-block
+	margin-left: rem(17px)
+	&:first-child
+		margin-left: 0
+
+.nav-menu-link
+	font-size: rem(16px)
+	&:hover
+		color: #1abb9c
+
+.nav-menu-trigger
+	display: none
+	width: 40px
+	height: 40px
+	background: #4e4e4e url(../img/menu-icon.png) center center no-repeat
+
+
+
+
+
+/******* HOME *******/
+.home
+	padding: rem(192px) 0 rem(198px)
+	text-align: center
+	background: #414850 url('../img/banner.jpg') no-repeat center center
+	background-size: cover
+	text-align: center
+
+.home-title,
+.home-descr
+	font-family: 'RobotoSlabBold'
+
+.home-title
+	margin-bottom: rem(38px)
+	font-size: rem(40px)
+	color: #f3f3f3
+
+.home-descr
+	margin-bottom: rem(44px)
+	font-size: rem(32px)
+	color: #a8a8a8
+
+.home-btn
+	display: inline-block
+	padding: rem(17px) rem(26px) rem(9px)
+	font-family: 'RobotoCondensed'
+	font-size: rem(14px)
+	text-transform: uppercase
+	color: #fff
+	background: #3f8dbf
+	border-bottom: 4px solid #3678a3
+	border-radius: 3px
+
+
+
+
+
+/******* SERVICE *******/
+.service
+	margin-bottom: rem(58px)
+	font-size: 0px
+
+.service-list
+	padding: rem(60px) rem(12px) 0
+	border-bottom: 2px solid #dcdcdc
+
+.service-item
+	width: 25%
+	margin-bottom: rem(54px)
+	padding: 0 rem(19px) 0 rem(19px)
+	text-align: center
+
+.service-img
+	width: 90px
+	height: 90px
+	margin: 0 auto rem(27px)
+	overflow: hidden
+	border-radius: 50%
+
+.service-heading
+	margin-bottom: rem(10px)
+	font-family: 'RobotoSlabBold'
+	font-size: rem(18px)
+	color: #4e4e4e
+
+.service-text
+	font-size: rem(14px)
+	line-height: rem(24px)
+	color: #616161
+
+
+
+
+
+/******* PORTFOLIO *******/
+.portfolio-title
+	margin-bottom: rem(21px)
+	font-family: 'RobotoCondensedBold'
+	font-size: rem(18px)
+	text-transform: uppercase
+	color: #4e4e4e
+
+.portfolio-list
+	margin: 0 rem(-8px)
+	font-size: 0px
+
+.portfolio-item
+	width: 33.33333333333333%
+	margin-bottom: rem(52px)
+	padding: 0 rem(8px)
+
+.portfolio-preview
+	position: relative
+
+.portfolio-overlay
+	position: absolute
+	top: 0
+	left: 0
+	width: 100%
+	height: 100%
+	padding-top: 43%
+	text-align: center
+	background: rgba(0,0,0,.6) url(../img/view-icon.png) center 43% no-repeat
+	opacity: 0
+	transition: opacity .4s
+
+.portfolio-overlay-link
+	font-family: 'RobotoSlabRegular'
+	font-size: rem(17px)
+	color: #fff
+
+.portfolio-preview:hover .portfolio-overlay
+	opacity: 1
+
+.portfolio-img
+	margin-bottom: rem(22px)
+
+.portfolio-heading
+	margin-bottom: rem(10px)
+
+.portfolio-heading-link
+	font-family: 'RobotoSlabBold'
+	font-size: rem(18px)
+	color: #4e4e4e
+
+.portfolio-category
+	margin-bottom: rem(18px)
+	font-family: 'RobotoSlabRegular'
+	font-size: rem(13px)
+	color: #a8a8a8
+
+.portfolio-descr
+	font-size: rem(14px)
+	line-height: rem(27px)
+	color: #5c5c5c
+
+
+
+
+
+/******* REVIEW *******/
+.review
+	background: #efefef url(../img/quotes-icon.png) center rem(54px) no-repeat
+
+.review-text
+	padding: rem(110px) rem(180px) rem(60px)
+	font-family: 'RobotoSlabRegular'
+	font-size: rem(20px)
+	text-align: center
+	line-height: rem(30px)
+	color: #a1a1a1
+
+
+
+
+
+/******* FOOTER *******/
+.footer
+	position: relative
+	color: #cacaca
+	background: #1d1d1d url(../img/footer_bg.png)
+	&:before
+		position: absolute
+		top: 0
+		left: 0
+		content: ''
+		display: block
+		width: 100%
+		height: 9px
+		background: #000
+		opacity: 0.3
+
+.footer-top
+	margin: 0 rem(-20px)
+	padding-top: rem(47px)
+	font-size: 0px
+
+.footer-item
+	width: 25%
+	margin-bottom: rem(22px)
+	padding: 0 rem(20px)
+	font-size: rem(14px)
+	line-height: rem(23px)
+
+.footer-heading
+	margin-bottom: rem(14px)
+	font-family: 'RobotoCondensedBold'
+	font-size: rem(18px)
+	text-transform: uppercase
+	color: #6c6c6c
+
+.footer-text
+	margin-bottom: rem(17px)
+
+.address-list
+	margin-top: rem(27px)
+
+.address-item,
+.twitter-item
+	padding-left: rem(23px)
+
+.address-item
+	margin-bottom: rem(2px)
+
+.address-city
+	background: url(../img/address-icon.png) left rem(6px) no-repeat
+
+.address-phone
+	background: url(../img/phone-icon.png) left rem(5px) no-repeat
+
+.address-mail
+	background: url(../img/mail-icon.png) left rem(8px) no-repeat
+
+.city-link,
+.phone-link,
+.mail-link
+	color: #cacaca
+
+.twitter-item
+	margin-top: rem(26px)
+	background: url(../img/twitter-icon.png) left rem(5px) no-repeat
+	&:first-child
+		margin-top: 0
+
+.feedback-name::-webkit-input-placeholder,
+	color: #cacaca
+
+.feedback-name::-moz-placeholder
+	color: #cacaca
+
+.feedback-name:-moz-placeholder
+	color: #cacaca
+
+.feedback-name:-ms-input-placeholder
+	color: #cacaca
+
+.feedback-email::-webkit-input-placeholder
+	color: #cacaca
+
+.feedback-email::-moz-placeholder
+	color: #cacaca
+
+.feedback-email:-moz-placeholder
+	color: #cacaca
+
+.feedback-email:-ms-input-placeholder
+	color: #cacaca
+
+.feedback-msg::-webkit-input-placeholder
+	color: #cacaca
+
+.feedback-msg::-moz-placeholder
+	color: #cacaca
+
+.feedback-msg:-moz-placeholder
+	color: #cacaca
+
+.feedback-msg:-ms-input-placeholder
+	color: #cacaca
+
+.feedback-name,
+.feedback-email,
+.feedback-msg,
+.feedback-send
+	width: 100%
+	padding: rem(5px) rem(5px)
+	font-size: rem(14px)
+	color: #cacaca
+	background: #1d1d1d
+	border: none
+	outline: none
+	border: 1px solid #cacaca
+
+.feedback-name,
+.feedback-email,
+.feedback-msg
+	height: rem(27px)
+	margin-bottom: rem(15px)
+
+.feedback-name
+
+.feedback-email
+
+.feedback-msg
+	height: rem(140px)
+	overflow: hidden
+	resize: none
+
+.feedback-send
+	cursor: pointer
+
+.footer-bottom
+	padding: rem(49px) 0
+	font-size: rem(14px)
+	border-top: 2px solid #dcdcdc
+
+.copyright
+	float: left
+
+.social
+	float: right
+	margin-top: rem(-7px)
+
+.social-item
+	display: inline-block
+	margin-left: rem(14px)
+	&:first-child
+		margin-left: 0
+
+.social-link
+	display: block
+	width: 30px
+	height: 30px
+	overflow: hidden
+	text-indent: -9999px
+	border-radius: 50%
+	background: url(../img/social-icons.png)
+
+.fc
+	background-position: 0 0
+
+.tw
+	background-position: -30px 0
+
+.ln
+	background-position: -60px 0
+
+.rss
+	background-position: -90px 0

@@ -1,0 +1,13 @@
+mixin service-item(img, name, text)
+	article.service-item
+		.service-img
+			img(src='img/'+img+'.jpg' alt='service')
+		h4.service-heading= name
+		p.service-text= text
+
+section.service.container
+	.service-list
+		+service-item('serv-one', 'Pellentesque', 'Nulla vitae  libero, a pharetra augue. Integer posuere erat a ante venenatis condimentum velit dapibus.')
+		+service-item('serv-two', 'Consectetur', 'Vestibulum id ligula porta  euismod semper. Aenean lacinia bibendum nulla sed consectetur dui.')
+		+service-item('serv-three', 'Tristiquet', 'Fusce dapibus, cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo risus.')
+		+service-item('serv-four', 'Fermentum', 'Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum sagittis lacus mollis.')

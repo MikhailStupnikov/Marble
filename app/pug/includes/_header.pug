@@ -1,0 +1,12 @@
+header.header
+	.container.clearfix
+		.logo
+			h1.logo-text
+				a.logo-link(href='#') Marble
+		nav.nav-menu
+			a.nav-menu-trigger(href='#')
+			- var menu = ['Home', 'About', 'Journal', 'Service', 'Features', 'Contact'];
+			ul.nav-menu-list
+				for item in menu
+					li.nav-menu-item
+						a.nav-menu-link(href='#')= item
