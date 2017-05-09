@@ -149,11 +149,11 @@
 				</div>
 				<div class="footer-item">
 					<h4 class="footer-heading">Feedback</h4>
-					<form class="feedback">
-						<input class="feedback-name" type="text" placeholder="Name">
-						<input class="feedback-email" type="text" placeholder="Email">
-						<textarea class="feedback-msg" placeholder="Message"></textarea>
-						<input class="feedback-send" type="submit" value="Send">
+					<form class="feedback" id="send-msg">
+						<input class="feedback-name" type="text" name="name" placeholder="Name">
+						<input class="feedback-email" type="text" name="email" placeholder="Email">
+						<textarea class="feedback-msg" name="message" placeholder="Message" maxlength="350"></textarea>
+						<input class="feedback-send" id="btn" type="submit" value="Send">
 					</form>
 				</div>
 				<div class="footer-item">
@@ -181,6 +181,15 @@
 			</div>
 		</div>
 	</footer>
+	<div class="popup">
+		<div class="popup-preloader">
+			<img class="preloader-img" src="img/preloader.gif" alt="preloader">
+		</div>
+		<div class="popup-window">
+			<div class="popup-close"></div>
+			<p class="popup-window-text"></p>
+		</div>
+	</div>
 	<script src="bower/jquery/dist/jquery.min.js"></script>
 	<script src="js/main.js"></script>
 </body>

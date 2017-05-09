@@ -22,11 +22,11 @@ footer.footer
 
 			.footer-item
 				h4.footer-heading Feedback
-				form.feedback
-					input.feedback-name(type='text' placeholder='Name')
-					input.feedback-email(type='text' placeholder='Email')
-					textarea.feedback-msg(placeholder='Message')
-					input.feedback-send(type='submit' value='Send')
+				form#send-msg.feedback
+					input.feedback-name(type='text' name='name' placeholder='Name')
+					input.feedback-email(type='text' name='email' placeholder='Email')
+					textarea.feedback-msg(name='message' placeholder='Message' maxlength='350')
+					input#btn.feedback-send(type='submit' value='Send')
 
 			.footer-item
 				h4.footer-heading About Us

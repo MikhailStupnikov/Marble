@@ -447,5 +447,57 @@ a
 
 
 
+/******* POPUP *******/
+.popup
+	position: fixed
+	top: 0
+	left: 0
+	z-index: 998
+	display: none
+	width: 100%
+	height: 100%
+	background: rgba(0,0,0,.5)
+
+.popup-preloader
+	position: absolute
+	top: 50%
+	left: 50%
+	z-index: 999
+	display: none
+	margin-top: -60px
+	margin-left: -60px
+
+.popup-window
+	position: absolute
+	top: 50%
+	left: 50%
+	z-index: 999
+	display: none
+	width: 500px
+	height: 150px
+	margin-top: -75px
+	margin-left: -250px
+	background: #e5e5e5
+	border-radius: rem(10px)
+
+.popup-close
+	float: right
+	width: 20px
+	height: 20px
+	margin-top: rem(10px)
+	margin-right: rem(10px)
+	background: url(../img/close-icon.png) no-repeat center center
+	cursor: pointer
+
+.popup-window-text
+	padding: 0 rem(10px)
+	text-align: center
+	line-height: 150px
+	color: #5c5c5c
+
+
+
+
+
 /******* MEDIA *******/
 @import misc/media
