@@ -1,0 +1,149 @@
+@function rem($px)
+	@return $px / 16px + 0rem
+
+
+@media screen and (max-width: 900px)
+
+	.home
+		padding: rem(162px) 0 rem(168px)
+	
+	.service-item
+		width: 50%
+
+	.review-text
+		padding-right: rem(110px)
+		padding-left: rem(110px)
+
+	.footer-item
+		width: 50%
+		margin-bottom: rem(34px)
+
+
+
+
+
+@media screen and (max-width: 768px)
+
+	.header
+		position: relative
+
+	.nav-menu
+		margin-top: rem(3px)
+
+	.nav-menu-list
+		position: absolute
+		top: 100%
+		left: 0
+		display: none
+		width: 100%
+		padding: rem(27px) 0
+		background: #e5e5e5
+
+	.nav-menu-item
+		display: block
+		margin-top: rem(27px)
+		margin-left: 0
+		text-align: center
+		&:first-child
+			margin-top: 0
+
+	.nav-menu-link
+		font-size: rem(22px)
+
+	.nav-menu-trigger
+		display: block
+
+	.home
+		padding: rem(122px) 0 rem(128px)
+
+	.review-text
+		padding-right: rem(80px)
+		padding-left: rem(80px)
+
+
+
+
+
+@media screen and (max-width: 720px)
+
+	.portfolio-title
+		margin-bottom: rem(39px)
+		font-size: rem(32px)
+		text-align: center
+
+	.portfolio-item
+		display: block
+		width: 58%
+		margin: 0 auto rem(52px)
+
+	.copyright,
+	.social
+		float: none
+		text-align: center
+
+	.social
+		margin-bottom: rem(26px)
+
+
+
+
+
+@media screen and (max-width: 650px)
+
+	.portfolio-item
+		width: 65%
+
+
+
+
+
+@media screen and (max-width: 600px)
+
+	.service-item
+		display: block
+		width: 100%
+
+	.portfolio-item
+		width: 71%
+
+	.review-text
+		padding-right: rem(30px)
+		padding-left: rem(30px)
+	
+	.footer-item
+		display: block
+		width: 100%
+
+
+
+
+
+@media screen and (max-width: 480px)
+
+	.logo
+		margin-top: rem(2px)
+
+	.logo-text
+		font-size: rem(34px)
+
+	.nav-menu
+		margin-top: 0
+
+	.home
+		padding: rem(92px) 0 rem(98px)
+
+	.home-title
+		font-size: rem(30px)
+
+	.home-descr
+		font-size: rem(22px)
+
+	.portfolio-title
+		font-size: rem(24px)
+
+	.portfolio-item
+		width: 90%
+
+	.review-text
+		padding-right: 0
+		padding-left: 0

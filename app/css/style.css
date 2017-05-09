@@ -409,3 +409,100 @@ a {
 
 .rss {
   background-position: -90px 0; }
+
+/******* MEDIA *******/
+@media screen and (max-width: 900px) {
+  .home {
+    padding: 10.125rem 0 10.5rem; }
+  .service-item {
+    width: 50%; }
+  .review-text {
+    padding-right: 6.875rem;
+    padding-left: 6.875rem; }
+  .footer-item {
+    width: 50%;
+    margin-bottom: 2.125rem; } }
+
+@media screen and (max-width: 768px) {
+  .header {
+    position: relative; }
+  .nav-menu {
+    margin-top: 0.1875rem; }
+  .nav-menu-list {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    display: none;
+    width: 100%;
+    padding: 1.6875rem 0;
+    background: #e5e5e5; }
+  .nav-menu-item {
+    display: block;
+    margin-top: 1.6875rem;
+    margin-left: 0;
+    text-align: center; }
+    .nav-menu-item:first-child {
+      margin-top: 0; }
+  .nav-menu-link {
+    font-size: 1.375rem; }
+  .nav-menu-trigger {
+    display: block; }
+  .home {
+    padding: 7.625rem 0 8rem; }
+  .review-text {
+    padding-right: 5rem;
+    padding-left: 5rem; } }
+
+@media screen and (max-width: 720px) {
+  .portfolio-title {
+    margin-bottom: 2.4375rem;
+    font-size: 2rem;
+    text-align: center; }
+  .portfolio-item {
+    display: block;
+    width: 58%;
+    margin: 0 auto 3.25rem; }
+  .copyright,
+  .social {
+    float: none;
+    text-align: center; }
+  .social {
+    margin-bottom: 1.625rem; } }
+
+@media screen and (max-width: 650px) {
+  .portfolio-item {
+    width: 65%; } }
+
+@media screen and (max-width: 600px) {
+  .service-item {
+    display: block;
+    width: 100%; }
+  .portfolio-item {
+    width: 71%; }
+  .review-text {
+    padding-right: 1.875rem;
+    padding-left: 1.875rem; }
+  .footer-item {
+    display: block;
+    width: 100%; } }
+
+@media screen and (max-width: 480px) {
+  .logo {
+    margin-top: 0.125rem; }
+  .logo-text {
+    font-size: 2.125rem; }
+  .nav-menu {
+    margin-top: 0; }
+  .home {
+    padding: 5.75rem 0 6.125rem; }
+  .home-title {
+    font-size: 1.875rem; }
+  .home-descr {
+    font-size: 1.375rem; }
+  .portfolio-title {
+    font-size: 1.5rem; }
+  .portfolio-item {
+    width: 90%; }
+  .review-text {
+    padding-right: 0;
+    padding-left: 0; } }
