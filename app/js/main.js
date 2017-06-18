@@ -111,4 +111,7 @@ $(document).ready(function(){
 
 	Feedback.init();
 
+	// hover для iOS
+	$('.portfolio-preview').click(function() {});
+
 });
