@@ -16,6 +16,7 @@
   ],
   "dependencies": {
     "jquery": "^3.2.1",
-    "normalize-css": "normalize.css#^5.0.0"
+    "normalize-css": "normalize.css#^5.0.0",
+    "placeholders": "^4.0.1"
   }
 }
